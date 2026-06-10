@@ -21,10 +21,10 @@ runs:
   steps:
     # Checkout
     - name: Checkout Repository
-      uses: namespacelabs/nscloud-checkout-action@v5
+      uses: namespacelabs/nscloud-checkout-action@v9
       if: inputs.checkout == 'namespace'
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       if: inputs.checkout == 'native'
 
     # NAMESPACE LAB VERSION
@@ -37,10 +37,10 @@ runs:
 
     # NATIVE VERSION
     - name: Setup Buildx
-      uses: docker/setup-buildx-action@v3
+      uses: docker/setup-buildx-action@v4
       if: inputs.namespacelabs == 'false'
     - name: Setup QEMU emulator
-      uses: docker/setup-qemu-action@v3
+      uses: docker/setup-qemu-action@v4
       if: inputs.namespacelabs == 'false'
 
     - name: Inject enhanced GitHub environment variables
