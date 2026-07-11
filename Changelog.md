@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/AtomiCloud/actions.setup-docker/compare/v2.0.0...v2.0.1) (2026-07-11)
+
+
+### 🐛 Bug Fixes 🐛
+
+* bump setup-nix to v3 ([328143e](https://github.com/AtomiCloud/actions.setup-docker/commit/328143ea93bf643de88820daf007fb2574bc65fb))
+
 ## [2.0.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.5.0...v2.0.0) (2026-06-10)
 
 
