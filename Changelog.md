@@ -1,3 +1,18 @@
+## [2.0.1](https://github.com/AtomiCloud/actions.setup-docker/compare/v2.0.0...v2.0.1) (2026-07-11)
+
+
+### 🐛 Bug Fixes 🐛
+
+* bump setup-nix to v3 ([328143e](https://github.com/AtomiCloud/actions.setup-docker/commit/328143ea93bf643de88820daf007fb2574bc65fb))
+
+## [2.0.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.5.0...v2.0.0) (2026-06-10)
+
+
+### ✨ Features ✨
+
+* **breaking:** release new major for upgraded sub-actions ([c844fd6](https://github.com/AtomiCloud/actions.setup-docker/commit/c844fd6b0861eafc227ce01e940b691debe4cdd4))
+* upgrade sub-actions to latest versions ([f92c633](https://github.com/AtomiCloud/actions.setup-docker/commit/f92c6332bf891a480c041a810219e5cf1182a084))
+
 ## [1.5.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.4.0...v1.5.0) (2025-01-28)
 
 
